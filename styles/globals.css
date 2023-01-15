@@ -255,7 +255,8 @@ span.text-red {
 
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #305e79;
+  opacity: 0.7;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -294,10 +295,10 @@ span.text-red {
 
 .footer-banner-image {
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
 }
 
 .banner-desc .right {
@@ -534,9 +535,16 @@ span.text-red {
   color: #f02d34;
   margin-top: 10px;
   display: flex;
+  flex-direction: column;
   gap: 5px;
-  align-items: center;
+  align-items: left;
 }
+
+/* .product-detail-desc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+} */
 
 .product-detail-desc h4 {
   margin-top: 10px;
@@ -577,6 +585,12 @@ span.text-red {
   gap: 30px;
 }
 
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 .buttons .add-to-cart {
   padding: 10px 20px;
   border: 1px solid #f02d34;
@@ -597,12 +611,11 @@ span.text-red {
 
 .buttons .buy-now {
   width: 200px;
-
   padding: 10px 20px;
   background-color: #f02d34;
   color: white;
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -654,6 +667,7 @@ span.text-red {
 
 .maylike-products-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
   margin-top: 20px;
@@ -801,7 +815,12 @@ span.text-red {
   }
 
   .product-detail-container {
-    flex-wrap: wrap;
+    display: flex;
+    gap: 40px;
+    margin: 40px;
+    margin-top: 60px;
+    color: #324d67;
+    flex-direction: column;
   }
 
   .product-detail-container .product-detail-image {
@@ -840,9 +859,6 @@ span.text-red {
     width: 150px;
   }
 
-  .product-detail-container {
-    margin: 20px;
-  }
 
   .item-desc .flex {
     width: 200px;
