@@ -9,19 +9,23 @@ export default async function handler(req, res) {
                 submit_type: 'pay',
                 mode: 'payment',
                 payment_method_types: ['card', 'klarna'],
+                automatic_tax: {
+                    enabled: true
+                },
                 billing_address_collection: 'auto',
                 shipping_address_collection: { allowed_countries: ['BE', 'FR', 'DE', 'SE', 'FI'] },
                 shipping_options: [
                     { shipping_rate: 'shr_1MRHX8BWgPkjJ6mgoCHTcQHO' },
                     { shipping_rate: 'shr_1MQvFVBWgPkjJ6mgu1cLX2Jx' },
                 ],
+                tax_id_collection: {
+                    enabled: true,
+                },
                 line_items: req.body.map((item) => {
                     const img = item.image[0].asset._ref;
                     console.log(img)
                     const newImage = img.replace('image-', 'https://cdn.sanity.io/images/p2gynb4v/production/').replace('-jpg', '.jpg');
                     console.log(newImage)
-
-
 
                     return {
                         price_data: {
@@ -30,13 +34,15 @@ export default async function handler(req, res) {
                                 name: item.name,
                                 images: [newImage],
                             },
+                            tax_behavior: 'inclusive',
                             unit_amount: item.price * 100,
                         },
                         adjustable_quantity: {
                             enabled: true,
                             minimum: 1,
                         },
-                        quantity: item.quantity
+                        quantity: item.quantity,
+
                     }
                 }),
                 success_url: `${req.headers.origin}/success`,
