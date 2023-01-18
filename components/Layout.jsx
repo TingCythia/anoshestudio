@@ -2,11 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
-
+import Script from 'next/script'
 const Layout = ({ children }) => {
     return (
         <div className='layout'>
             <Head>
+                <Script src="https://example.com/script.js" />
                 <title>Anoshe Studio</title>
             </Head>
             <header>
