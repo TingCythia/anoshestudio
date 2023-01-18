@@ -29,11 +29,20 @@ a {
   padding: 10px;
 }
 
+
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 6px 18px;
   position: relative;
+  height: 50px;
+  padding: 20px 0;
+}
+.rightNavbar {
+
+
 }
 
 .marquee-text {
@@ -78,19 +87,22 @@ span.text-red {
 }
 
 .logo {
-  color: gray;
-  font-size: 18px;
+
+height: 200px;
+width: 200px;
 
 }
+.Navicon{  font-size: 17px;}
 
 .cart-icon {
-  font-size: 25px;
+  font-size: 20px;
   color: gray;
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
+  margin-right: 15px;
 }
 
 .cart-icon:hover {
@@ -102,7 +114,7 @@ span.text-red {
   right: -8px;
   font-size: 12px;
   color: #eee;
-  background-color: #f02d34;
+  background-color: #4a3ae1;
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -162,15 +174,15 @@ span.text-red {
 .banner-div {
   position: absolute;
   background: rgba(148, 102, 56, 0.7);
-  border-radius: 8px;
+  border-radius: 5px;
   width: auto;
   height: auto;
 }
 
 .banner-solo {
-  margin-top: 15px;
+  margin-top: 10px;
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .hero-banner-container button {
@@ -254,16 +266,17 @@ span.text-red {
 }
 
 .footer-banner-container {
-  padding: 100px 40px;
-  background-color: #305e79;
+  padding: 50px 40px;
+  background-color: #ffffff;
   opacity: 0.7;
   border-radius: 15px;
   position: relative;
   height: 400px;
   line-height: 1;
-  color: white;
+  color: rgb(31, 27, 52);
   width: 100%;
   margin-top: 120px;
+  border: 1px solid rgb(22, 11, 172);
 }
 
 .banner-desc {
@@ -274,8 +287,8 @@ span.text-red {
 .banner-desc button {
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: white;
-  color: red;
+  background-color: rgb(246, 224, 197);
+  color: rgb(250, 146, 61);
   border: none;
   margin-top: 40px;
   font-size: 18px;
@@ -294,11 +307,8 @@ span.text-red {
 }
 
 .footer-banner-image {
-  position: absolute;
-  margin: 0;
-  position: absolute;
-  top: 0%;
-  left: 50%;
+
+
 }
 
 .banner-desc .right {
