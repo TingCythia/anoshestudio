@@ -168,11 +168,12 @@ span.text-red {
 
 .product-name {
   font-weight: 500;
+  margin-top: 26px;
 }
 
 .product-price {
   font-weight: 800;
-  margin-top: 6px;
+  margin-top: 10px;
   color: black;
 }
 
@@ -365,15 +366,12 @@ span.text-red {
 
 .footer-container {
   color: #324d67;
-  text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 30px 10px;
-  font-weight: 700;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: rgb(250, 248, 241);
+margin-top: 50px;
 
 }
 
@@ -381,6 +379,7 @@ span.text-red {
   font-size: 30px;
   display: flex;
   gap: 10px;
+ 
 }
 
 .cart-heading {
@@ -513,17 +512,15 @@ span.text-red {
 
 .product-detail-container {
   display: flex;
-  gap: 40px;
-  margin: 40px;
-  margin-top: 60px;
+text-align: center;
   color: #324d67;
+  margin-top:80px;
 
 }
 
 .product-detail-image {
   border-radius: 15px;
   background-color: #ebebeb;
-
   width: 400px;
   height: 400px;
   cursor: pointer;
@@ -554,7 +551,7 @@ span.text-red {
 }
 
 .reviews {
-  color: #f02d34;
+  color: #7e5151;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -562,11 +559,10 @@ span.text-red {
   align-items: left;
 }
 
-/* .product-detail-desc {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-} */
+.product-detail-desc {
+ 
+  margin-top: 40px;
+} 
 
 .product-detail-desc h4 {
   margin-top: 10px;
@@ -584,8 +580,9 @@ span.text-red {
 .product-detail-desc .price {
   font-weight: 700;
   font-size: 26px;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #f02d34;
+  float: left;
 }
 
 .price .old-price,
@@ -615,14 +612,14 @@ span.text-red {
 
 .buttons .add-to-cart {
   padding: 10px 20px;
-  border: 1px solid #f02d34;
+  border: 1px solid #302df0;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
-  background-color: white;
-  color: #f02d34;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   cursor: pointer;
-  width: 200px;
+  width: 190px;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -632,15 +629,15 @@ span.text-red {
 }
 
 .buttons .buy-now {
-  width: 200px;
   padding: 10px 20px;
-  background-color: #f02d34;
-  color: white;
-  border: none;
-  margin-top: 20px;
+  border: 1px solid #030223;
+  margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
+  background-color: rgb(4, 3, 3);
+  color: #ffffff;
   cursor: pointer;
+  width: 190px;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -779,7 +776,11 @@ span.text-red {
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+
     margin-bottom: 200px;
+
+   
+
   }
 
   .footer-banner-image {
@@ -948,6 +949,9 @@ span.text-red {
   }
 }
 
+
+
+
 @media screen and (max-width:428px) {
   .hero-banner-container h3 {
     margin-top: 15px;
@@ -958,3 +962,50 @@ span.text-red {
     width: 51%;
   }
 }
+/* policy footer*/
+
+.Navbarpolicy h1{
+  color: rgb(0, 4, 53);
+    padding: 7px 0 8px;
+    position: relative;
+    flex-direction: column;
+  
+ text-align: center;
+ background: linear-gradient(45deg , #f5eded  0% , 50%, #706d6d 100%);
+
+
+}
+.Navbarpolicy{
+  line-height: 150%;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.Navbarpolicy h3{
+  font-weight: 700;
+  margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.descrip{
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1{
+  margin-bottom: 10px;
+}
+.p2{margin-bottom: 20px;}
+ .p3{margin-top: 10px;}
+
+ .boxleft a{
+
+color: #555555;
+font-family:Arial, Helvetica, sans-serif;
+margin-top: 6px;
+ }
+ .boxleft p{
+  margin-top: 10px;
+ }
+ .MuiTypography-root {
+ 
+ }
