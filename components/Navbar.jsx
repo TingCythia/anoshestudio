@@ -5,9 +5,15 @@ import { Cart } from './';
 import { useStateContext } from '../context/StateContext';
 import logo from "../image/logo.jpg";
 import Image from 'next/image';
+import { useRef } from 'react';
+
 function Navbar() {
 
     const { showCart, setShowCart, totalQuantities } = useStateContext();
+
+    
+  
+
     return (
         <div>
             <div className='navbar-container'>
@@ -22,12 +28,10 @@ function Navbar() {
                     </div>
 
 
-
-
                     <div className='rightNavbar'>
          
                     
-                    <Link href={"./FooterBanner.jsx"}>
+                    <Link href={"./AboutUs.jsx"}>
                     <button type='button' className='cart-icon'>
                     About Us
                 </button>
