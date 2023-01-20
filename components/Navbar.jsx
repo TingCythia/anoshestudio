@@ -31,7 +31,7 @@ function Navbar() {
                     <div className='rightNavbar'>
          
                     
-                    <Link href={"./AboutUs.jsx"}>
+                    <Link href={"/"}>
                     <button type='button' className='cart-icon'>
                     About Us
                 </button>
