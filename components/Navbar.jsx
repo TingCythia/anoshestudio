@@ -5,14 +5,14 @@ import { Cart } from './';
 import { useStateContext } from '../context/StateContext';
 import logo from "../image/logo.jpg";
 import Image from 'next/image';
-import { useRef } from 'react';
+
 
 function Navbar() {
 
     const { showCart, setShowCart, totalQuantities } = useStateContext();
 
-    
-  
+
+
 
     return (
         <div>
@@ -34,38 +34,38 @@ function Navbar() {
                 <div className='rightNavbar'>
 
 
-                    <Link href={"./FooterBanner.jsx"}>
+                    {/*                     <Link href={"./FooterBanner.jsx"}>
                         <button type='button' className='cart-icon'>
                             About Us
                         </button>
-                    </Link>
+                    </Link> */}
 
                     <div className='rightNavbar'>
-         
-                    
-                    <Link href={"/"}>
-                    <button type='button' className='cart-icon'>
-                    About Us
-                </button>
-                </Link>
 
 
-                    <Link href={"/store"}>
-                        <button type='button' className='cart-icon'>
-                            Store
+                        {/*                      <Link href={"/"}>
+                            <button type='button' className='cart-icon'>
+                                About Us
+                            </button>
+                        </Link>
+ */}
+
+                        <Link href={"/store"}>
+                            <button type='button' className='cart-icon'>
+                                Store
+                            </button>
+                        </Link>
+
+
+                        <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
+                            <AiOutlineShopping />
+                            <span className='cart-item-qty'>{totalQuantities}</span>
                         </button>
-                    </Link>
+
+                        {showCart && <Cart />}
 
 
-                    <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
-                        <AiOutlineShopping />
-                        <span className='cart-item-qty'>{totalQuantities}</span>
-                    </button>
-
-                    {showCart && <Cart />}
-
-
-
+                    </div>
                 </div>
             </div>
         </div>

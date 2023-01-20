@@ -9,6 +9,11 @@ body,
 
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -19,10 +24,12 @@ a {
 }
 
 .main-container {
-  max-width: 1400px;
+  /*   max-width: 1400px;
   margin: auto;
   width: 100%;
-  margin-top: 35px;
+  margin-top: 35px; */
+  flex: 1 0 auto;
+  padding: 20px;
 }
 
 .layout {
@@ -135,24 +142,27 @@ span.text-red {
 }
 
 .store-products-container {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px 50px;
   margin-top: 50px;
   width: 100%;
+  height: 100%;
 }
 
 .store-product-card {
   cursor: pointer;
 }
 
+.store-card-contariner {}
+
 .product-card {
   cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
   color: #324d67;
-
 }
 
 .product-card:hover {
@@ -371,15 +381,14 @@ span.text-red {
   display: flex;
   justify-content: space-between;
   background-color: rgb(250, 248, 241);
-margin-top: 50px;
-
+  margin-top: 50px;
 }
 
 .footer-container .icons {
   font-size: 30px;
   display: flex;
   gap: 10px;
- 
+
 }
 
 .cart-heading {
@@ -512,9 +521,9 @@ margin-top: 50px;
 
 .product-detail-container {
   display: flex;
-text-align: center;
+  text-align: center;
   color: #324d67;
-  margin-top:80px;
+  margin-top: 80px;
 
 }
 
@@ -560,9 +569,9 @@ text-align: center;
 }
 
 .product-detail-desc {
- 
+
   margin-top: 40px;
-} 
+}
 
 .product-detail-desc h4 {
   margin-top: 10px;
@@ -776,11 +785,7 @@ text-align: center;
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
-
     margin-bottom: 200px;
-
-   
-
   }
 
   .footer-banner-image {
@@ -947,9 +952,9 @@ text-align: center;
     width: 300px;
     margin: auto;
   }
+
+
 }
-
-
 
 
 @media screen and (max-width:428px) {
@@ -962,50 +967,58 @@ text-align: center;
     width: 51%;
   }
 }
+
 /* policy footer*/
 
-.Navbarpolicy h1{
+.Navbarpolicy h1 {
   color: rgb(0, 4, 53);
-    padding: 7px 0 8px;
-    position: relative;
-    flex-direction: column;
-  
- text-align: center;
- background: linear-gradient(45deg , #f5eded  0% , 50%, #706d6d 100%);
+  padding: 7px 0 8px;
+  position: relative;
+  flex-direction: column;
+
+  text-align: center;
+  background: linear-gradient(45deg, #f5eded 0%, 50%, #706d6d 100%);
 
 
 }
-.Navbarpolicy{
+
+.Navbarpolicy {
   line-height: 150%;
   margin-left: 150px;
   margin-right: 150px;
 }
-.Navbarpolicy h3{
+
+.Navbarpolicy h3 {
   font-weight: 700;
   margin-top: 40px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.descrip{
-
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.p1{
+.descrip {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1 {
   margin-bottom: 10px;
 }
-.p2{margin-bottom: 20px;}
- .p3{margin-top: 10px;}
 
- .boxleft a{
+.p2 {
+  margin-bottom: 20px;
+}
 
-color: #555555;
-font-family:Arial, Helvetica, sans-serif;
-margin-top: 6px;
- }
- .boxleft p{
+.p3 {
   margin-top: 10px;
- }
- .MuiTypography-root {
- 
- }
+}
+
+.boxleft a {
+
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 6px;
+}
+
+.boxleft p {
+  margin-top: 10px;
+}
