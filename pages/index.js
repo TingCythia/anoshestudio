@@ -12,7 +12,7 @@ const Home = ({ products, bannerData }) => {
       </div>
 
       <div className='products-container'>
-        {products?.map((product) =>
+        {products?.filter((category) => category.category === "Best selling product").map((product) =>
           <Product
             key={product._id}
             product={product}
