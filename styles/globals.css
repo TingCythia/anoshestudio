@@ -779,6 +779,7 @@ span.text-red {
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+    margin-bottom: 200px;
   }
 
   .footer-banner-image {
