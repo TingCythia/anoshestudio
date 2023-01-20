@@ -22,7 +22,7 @@ a {
   max-width: 1400px;
   margin: auto;
   width: 100%;
-
+  margin-top: 35px;
 }
 
 .layout {
@@ -104,6 +104,7 @@ span.text-red {
   border: none;
   background-color: transparent;
   margin-right: 15px;
+
 }
 
 .cart-icon:hover {
