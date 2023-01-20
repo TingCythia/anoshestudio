@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiOutlineShopping,  } from "react-icons/ai";
+import { AiOutlineShopping, } from "react-icons/ai";
 import { Cart } from './';
 import { useStateContext } from '../context/StateContext';
 import logo from "../image/logo.jpg";
@@ -17,16 +17,28 @@ function Navbar() {
     return (
         <div>
             <div className='navbar-container'>
-                
+
                 <div>
                     <Link href={"/"}>
-                       <Image className ='logo' 
-                    alt='logo picture'
-                       src={logo}/>
+                        <Image className='logo'
+                            alt='logo picture'
+                            src={logo} />
                     </Link>
-          
-                    </div>
 
+                </div>
+
+
+
+
+
+                <div className='rightNavbar'>
+
+
+                    <Link href={"./FooterBanner.jsx"}>
+                        <button type='button' className='cart-icon'>
+                            About Us
+                        </button>
+                    </Link>
 
                     <div className='rightNavbar'>
          
@@ -37,19 +49,20 @@ function Navbar() {
                 </button>
                 </Link>
 
-                <Link href={"./"}>
-                <button type='button' className='cart-icon'>
-                    Contact Us 
-                </button>
-                </Link>
+
+                    <Link href={"/store"}>
+                        <button type='button' className='cart-icon'>
+                            Store
+                        </button>
+                    </Link>
 
 
-                <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
-                    <AiOutlineShopping />
-                    <span className='cart-item-qty'>{totalQuantities}</span>
-                </button>
+                    <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
+                        <AiOutlineShopping />
+                        <span className='cart-item-qty'>{totalQuantities}</span>
+                    </button>
 
-                {showCart && <Cart />}
+                    {showCart && <Cart />}
 
 
 

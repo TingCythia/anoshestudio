@@ -7,12 +7,12 @@ const Home = ({ products, bannerData }) => {
       <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
       {console.log(bannerData)}
       <div className='products-heading'>
-        <h2>Our Products</h2>
+        <h2>Our Most Popular Products</h2>
         <p> Porslin of many variations </p>
       </div>
 
       <div className='products-container'>
-        {products?.map((product) =>
+        {products?.filter((category) => category.category === "Best selling product").map((product) =>
           <Product
             key={product._id}
             product={product}

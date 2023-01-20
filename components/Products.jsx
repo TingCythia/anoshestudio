@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 import { urlFor } from '../lib/client';
 
-function Product({ product: { image, name, slug, price } }) {
+function Products({ product: { image, name, slug, price } }) {
     return (
         <div>
             <Link href={`/product/${slug.current}`}>
-                <div className='product-card'>
+                <div className='store-product-card'>
                     <img
                         src={urlFor(image && image[0])}
                         width={250}
@@ -21,4 +21,4 @@ function Product({ product: { image, name, slug, price } }) {
     )
 }
 
-export default Product
+export default Products
