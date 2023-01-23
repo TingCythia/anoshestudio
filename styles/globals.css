@@ -398,7 +398,7 @@ span.text-red {
   font-weight: 500;
   cursor: pointer;
   gap: 2px;
-  margin-left: 10px;
+  margin-left: 30px;
   border: none;
   background-color: transparent;
 }
@@ -871,13 +871,13 @@ span.text-red {
   }
 
   .product {
-    padding: 20px 5px;
+    padding: 20px 20px;
 
   }
 
   .product .cart-product-image {
-    width: 25%;
-    height: 25%;
+    width: 70px;
+    height: 90px;
   }
 
   .buttons .add-to-cart {
@@ -920,6 +920,7 @@ span.text-red {
 
   .total h3 {
     font-size: 20px;
+    padding-left: 20px;
   }
 
   .track {
@@ -1014,4 +1015,65 @@ span.text-red {
 
 .boxleft p {
   margin-top: 10px;
+}
+
+
+.modal-content {
+  -webkit-box-shadow: -1px 1px 5px 9px #333;
+  -moz-box-shadow: -1px 1px 5px 9px #333;
+  box-shadow: -1px 1px 50px 1px #333;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background: #000000 !important;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.close {
+  background-color: #cd5c40;
+}
+
+.modal {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: -400px;
+  left: 0;
+  position: absolute;
+  z-index: 9999;
+}
+
+.accept-button {
+  background-color: #cd5c40;
+  width: 100px;
+  height: 60px;
+  border-radius: 12px;
+}
+
+.reject-button {
+  background-color: #cd5c40;
+  width: 100px;
+  height: 60px;
+  border-radius: 12px;
 }

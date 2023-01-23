@@ -1,6 +1,6 @@
 import React from 'react';
 import { client } from '../lib/client';
-import { Product, FooterBanner, HeroBanner } from '../components';
+import { Product, FooterBanner, HeroBanner, Cookie } from '../components';
 const Home = ({ products, bannerData }) => {
   return (
     <>
@@ -19,7 +19,7 @@ const Home = ({ products, bannerData }) => {
           />
         )}
       </div>
-
+      <Cookie />
       <FooterBanner footerBanner={bannerData.length && bannerData[1]} />
     </>
   )
