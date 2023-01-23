@@ -9,7 +9,7 @@ function Policy (){
     
    
 
-    <div >
+    <div className="Navbarpolicy" >
 
         <h1> Retur och återbetalning</h1>
         <h3> RETURNERA OCH FÅ FULL ÅTERBETALNING </h3>

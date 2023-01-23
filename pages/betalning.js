@@ -1,9 +1,9 @@
 import React from "react"
-
+import { Box } from "@mui/system"
 
 function Betalning (){
     return(
-   
+
        <div className="Navbarpolicy">
    
            <h1> Betalning och leverans</h1>
