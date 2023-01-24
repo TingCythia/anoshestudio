@@ -1,5 +1,4 @@
 import React from "react"
-import { Box } from "@mui/system"
 
 function Betalning (){
     return(
@@ -76,3 +75,4 @@ Under högsäsong och reaperioder kan expressleverans vara otillgänglig.
    }
    
    export default Betalning
+
