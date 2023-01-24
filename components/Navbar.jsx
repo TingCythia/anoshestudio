@@ -14,8 +14,11 @@ function Navbar() {
 
 
 
-    return (
-        <div>
+    
+ return (
+
+
+      <div> 
             <div className='navbar-container'>
 
                 <div>
@@ -27,11 +30,8 @@ function Navbar() {
 
                 </div>
 
-
-
-
-
                 <div className='rightNavbar'>
+
 
 
                     {/*                     <Link href={"./FooterBanner.jsx"}>
@@ -43,12 +43,7 @@ function Navbar() {
                     <div className='rightNavbar'>
 
 
-                        {/*                      <Link href={"/"}>
-                            <button type='button' className='cart-icon'>
-                                About Us
-                            </button>
-                        </Link>
- */}
+  
 
                         <Link href={"/store"}>
                             <button type='button' className='cart-icon'>
@@ -69,6 +64,7 @@ function Navbar() {
                 </div>
             </div>
         </div>
+        </div> 
     )
 }
 
