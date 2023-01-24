@@ -538,6 +538,7 @@ span.text-red {
   color: #324d67;
   margin-top: 80px;
   justify-content: center;
+  gap: 20px;
 }
 
 .product-detail-image {

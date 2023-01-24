@@ -14,8 +14,11 @@ const ProductDetails = ({ product, products }) => {
                 <div>
                     <div className='image-container'>
                         <img
-                            width={"50%"}
-                            height={"auto"}
+                            style={{
+                                maxWidth: "350px",
+                                maxHeight: "350px",
+                                borderRadius: "10px",
+                            }}
                             src={urlFor(image && image[0])} />
                     </div>
 
