@@ -12,10 +12,9 @@ function Navbar() {
     const { showCart, setShowCart, totalQuantities } = useStateContext();
 
     
-  
+ return (
 
-    return (
-        <div>
+      <div> 
             <div className='navbar-container'>
 
                 <div>
@@ -27,18 +26,7 @@ function Navbar() {
 
                 </div>
 
-
-
-
-
                 <div className='rightNavbar'>
-
-
-                    <Link href={"./FooterBanner.jsx"}>
-                        <button type='button' className='cart-icon'>
-                            About Us
-                        </button>
-                    </Link>
 
                     <div className='rightNavbar'>
          
@@ -69,6 +57,7 @@ function Navbar() {
                 </div>
             </div>
         </div>
+        </div> 
     )
 }
 
