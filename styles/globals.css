@@ -537,7 +537,7 @@ span.text-red {
   text-align: center;
   color: #324d67;
   margin-top: 80px;
-
+  justify-content: center;
 }
 
 .product-detail-image {
