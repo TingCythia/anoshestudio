@@ -74,7 +74,7 @@ const ProductDetails = ({ product, products }) => {
                 <h2>You may also like</h2>
                 <div className='marquee' >
                     <div className='maylike-products-container'>
-                        {products.slice(1, 4).map((item) => (
+                        {products.slice(0, 4).map((item) => (
                             <Product key={item._id} product={item} />
                         ))}
                     </div>
