@@ -396,8 +396,8 @@ span.text-red {
 
 }
 
-@media screen and (max-width:428px){ 
-  .footer-container{
+@media screen and (max-width:428px) {
+  .footer-container {
     width: 150%;
     text-align: center;
   }
@@ -629,7 +629,8 @@ span.text-red {
 .buttons {
   display: flex;
   flex-wrap: wrap;
-margin-left: 160px;
+  gap: 10px;
+  justify-content: center;
 }
 
 .buttons .add-to-cart {
@@ -983,12 +984,12 @@ margin-left: 160px;
 
 /* policy footer*/
 
-@media screen and (max-width:428px){
-  .main-container{
+@media screen and (max-width:428px) {
+  .main-container {
     width: 150%;
     text-align: center;
   }
-  
+
 }
 
 .Navbarpolicy h1 {
@@ -1035,6 +1036,4 @@ margin-left: 160px;
 
 .boxleft p {
   margin-top: 10px;
- }
-
-
+}
