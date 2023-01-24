@@ -391,14 +391,17 @@ span.text-red {
 .footer-container .icons {
   font-size: 30px;
   display: flex;
-
-  gap: 10px;
-
-
-
   margin-top: 10px;
-
+  gap: 10px;
 }
+
+@media screen and (max-width:428px){ 
+  .footer-container{
+    width: 150%;
+    text-align: center;
+  }
+}
+
 
 .cart-heading {
   display: flex;
@@ -979,6 +982,14 @@ span.text-red {
 
 /* policy footer*/
 
+@media screen and (max-width:428px){
+  .main-container{
+    width: 150%;
+    text-align: center;
+  }
+  
+}
+
 .Navbarpolicy h1 {
   color: rgb(0, 4, 53);
   padding: 7px 0 8px;
@@ -1023,14 +1034,6 @@ span.text-red {
 
 .boxleft p {
   margin-top: 10px;
+ }
 
-}
 
-
-.boxmellan p {
-  margin-top: 10px;
-}
-
-.infoAnoshi p {
-  display: flex;
-}

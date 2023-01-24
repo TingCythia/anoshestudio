@@ -1,77 +1,78 @@
 import React from "react"
 
+function Betalning (){
+    return(
 
-function Betalning() {
-   return (
+       <div className="Navbarpolicy">
+   
+           <h1> Betalning och leverans</h1>
+           <h3>  </h3>
+   <div className="descrip"> 
+   
+   
+   <p className="p1"> 
+   Fri leverans över 200,00 euro.
+   Snabb leverans inne Europe 20,00 euro.
+Vilka leveransställen kan jag välja?
 
-      <div className="Navbarpolicy">
+Vi erbjuder flera leveransalternativ, ange önskad leveransadress i kassan eller välj ett passande paketombud. Om någon hämtar ett paket för din räkning måste de ta med ditt ID, upphämtningskoden och sitt eget ID.
 
-         <h1> Betalning och leverans</h1>
-         <h3>  </h3>
-         <div className="descrip">
+Spåra din beställning
 
+När din beställning har skickats skickar vi dig en leveransbekräftelse via e-post med en spårningslänk. Du kan också spåra den under "Beställningar" när du loggar in på Mitt konto.
 
-            <p className="p1">
-               Fri leverans över 500 kr.
-               Vilka leveransställen kan jag välja?
+Leveransbegränsningar
 
-               Vi erbjuder flera leveransalternativ, ange önskad leveransadress i kassan eller välj ett passande paketombud. Om någon hämtar ett paket för din räkning måste de ta med ditt ID, upphämtningskoden och sitt eget ID.
+Beställda varor kan endast levereras till personer som är 18 år eller äldre, med en adress i Sverige. Undantagna leveransplatser listas nedan.
 
-               Spåra din beställning
+Paket som inte kan levereras
 
-               När din beställning har skickats skickar vi dig en leveransbekräftelse via e-post med en spårningslänk. Du kan också spåra den under "Beställningar" när du loggar in på Mitt konto.
+Om din beställning inte kan levereras returneras den till Anoshe.
 
-               Leveransbegränsningar
+Beställning från utlandet
 
-               Beställda varor kan endast levereras till personer som är 18 år eller äldre, med en adress i Sverige. Undantagna leveransplatser listas nedan.
-
-               Paket som inte kan levereras
-
-               Om din beställning inte kan levereras returneras den till Monki.
-
-               Beställning från utlandet
-
-               För att beställa utomlands, besök Monkis webbplats för det land du befinner dig i och ange en lokal leveransadress i kassan.
-
-
-
-            </p>
-
-            <b>BETALNING</b>
-
-            <p className="p2">
-               Vi har bara en betalningsmetoder som betala med kreditkort , vi änvanda stripe som är en säker betolningset.
-            </p>
+För att beställa utomlands, besök Anoshe webbplats för det land du befinner dig i och ange en lokal leveransadress i kassan.
 
 
+   
+   </p>
+   
+   <b>BETALNING</b>
+   
+   <p className="p2">
+   Vi har bara en betalningsmetoder som betala med kreditkort , vi änvanda stripe som är en säker betolningset. 
+   </p>
+   
+   
+   
+    <b>LEVERANS</b>
+    <p className="p3">
+    Vilka leveransalternativ har jag?
+Standardleverans är gratis för beställningar över 500 kr. Vi kommer att leverera ditt köp inom 6-8 arbetsdagar efter att ha mottagit din orderbekräftelse.
 
-            <b>LEVERANS</b>
-            <p className="p3">
-               Vilka leveransalternativ har jag?
-               Standardleverans är gratis för beställningar över 500 kr. Vi kommer att leverera ditt köp inom 6-8 arbetsdagar efter att ha mottagit din orderbekräftelse.
+Standard hemleverans (70 kr)
+Standard hemleverans (50 kr)
+Standard upphämtningsställe (40 kr)
+Standard paketskåp (40 kr)
 
-               Standard hemleverans (70 kr)
-               Standard hemleverans (50 kr)
-               Standard upphämtningsställe (40 kr)
-               Standard paketskåp (40 kr)
+Vi erbjuder även expressleverans för beställningar som görs före 16:30 måndag - fredag, eller före 10:30 på lördagar levereras inom 1-2 arbetsdagar. Beställningar som görs efter 16:30 måndag - fredag, eller efter 10:30 på lördagar kommer att levereras inom 3 arbetsdagar.
 
-               Vi erbjuder även expressleverans för beställningar som görs före 16:30 måndag - fredag, eller före 10:30 på lördagar levereras inom 1-2 arbetsdagar. Beställningar som görs efter 16:30 måndag - fredag, eller efter 10:30 på lördagar kommer att levereras inom 3 arbetsdagar.
+Expressleverans (100 kr) 
 
-               Expressleverans (100 kr)
+Under högsäsong och reaperioder kan expressleverans vara otillgänglig.
+   
+   </p>
+   
+   
+   
+   
+   </div>
+       
+       
+       </div>
+    )
+   
+   }
+   
+   export default Betalning
 
-               Under högsäsong och reaperioder kan expressleverans vara otillgänglig.
-
-            </p>
-
-
-
-
-         </div>
-
-
-      </div>
-   )
-
-}
-
-export default Betalning
