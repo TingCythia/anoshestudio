@@ -396,7 +396,7 @@ span.text-red {
 
 
 
- margin-top: 10px;
+  margin-top: 10px;
 
 }
 
@@ -1026,17 +1026,11 @@ span.text-red {
 
 }
 
- }
- .MuiTypography-root {
- 
- }
- .footer-container p{
 
- }
- .boxmellan p{
+.boxmellan p {
   margin-top: 10px;
- }
-.infoAnoshi p{
-display: flex;
 }
 
+.infoAnoshi p {
+  display: flex;
+}

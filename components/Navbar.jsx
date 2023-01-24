@@ -14,11 +14,11 @@ function Navbar() {
 
 
 
-    
- return (
+
+    return (
 
 
-      <div> 
+        <div>
             <div className='navbar-container'>
 
                 <div>
@@ -43,7 +43,7 @@ function Navbar() {
                     <div className='rightNavbar'>
 
 
-  
+
 
                         <Link href={"/store"}>
                             <button type='button' className='cart-icon'>
@@ -64,7 +64,7 @@ function Navbar() {
                 </div>
             </div>
         </div>
-        </div> 
+
     )
 }
 
