@@ -378,9 +378,16 @@ span.text-red {
 .footer-container .icons {
   font-size: 30px;
   display: flex;
-
  margin-top: 10px;
 }
+
+@media screen and (max-width:428px){ 
+  .footer-container{
+    width: 150%;
+    text-align: center;
+  }
+}
+
 
 .cart-heading {
   display: flex;
@@ -963,7 +970,13 @@ text-align: center;
   }
 }
 /* policy footer*/
-
+@media screen and (max-width:428px){
+  .main-container{
+    width: 150%;
+    text-align: center;
+  }
+  
+}
 .Navbarpolicy h1{
   color: rgb(0, 4, 53);
     padding: 7px 0 8px;
@@ -1006,15 +1019,11 @@ margin-top: 6px;
  .boxleft p{
   margin-top: 10px;
  }
- .MuiTypography-root {
- 
- }
- .footer-container p{
 
- }
  .boxmellan p{
   margin-top: 10px;
  }
 .infoAnoshi p{
 display: flex;
 }
+

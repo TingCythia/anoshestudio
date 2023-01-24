@@ -12,7 +12,8 @@ function Betalning (){
    
    
    <p className="p1"> 
-   Fri leverans över 500 kr.
+   Fri leverans över 200,00 euro.
+   Snabb leverans inne Europe 20,00 euro.
 Vilka leveransställen kan jag välja?
 
 Vi erbjuder flera leveransalternativ, ange önskad leveransadress i kassan eller välj ett passande paketombud. Om någon hämtar ett paket för din räkning måste de ta med ditt ID, upphämtningskoden och sitt eget ID.
@@ -27,11 +28,11 @@ Beställda varor kan endast levereras till personer som är 18 år eller äldre,
 
 Paket som inte kan levereras
 
-Om din beställning inte kan levereras returneras den till Monki.
+Om din beställning inte kan levereras returneras den till Anoshe.
 
 Beställning från utlandet
 
-För att beställa utomlands, besök Monkis webbplats för det land du befinner dig i och ange en lokal leveransadress i kassan.
+För att beställa utomlands, besök Anoshe webbplats för det land du befinner dig i och ange en lokal leveransadress i kassan.
 
 
    
