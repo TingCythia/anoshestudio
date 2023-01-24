@@ -24,8 +24,8 @@ const ProductDetails = ({ product, products }) => {
                 <div className='product-detail-desc'>
                     <h1>{name}</h1>
                     <div className='reviews'>
-                        
-                      
+
+
                         <p>{details}</p>
                         <p className='price'>${price}</p>
                         <p className='quantity'>
@@ -71,7 +71,7 @@ const ProductDetails = ({ product, products }) => {
                 <h2>You may also like</h2>
                 <div className='marquee' >
                     <div className='maylike-products-container'>
-                        {products.map((item) => (
+                        {products.slice(1, 4).map((item) => (
                             <Product key={item._id} product={item} />
                         ))}
                     </div>

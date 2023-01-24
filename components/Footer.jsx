@@ -3,26 +3,13 @@ import { AiFillInstagram, AiOutlineTwitter,AiFillFacebook } from 'react-icons/ai
 import Link from 'next/link';
 
 
- 
+
 function Footer() {
     return (
 
-       <div className='footer-container'>
 
-
-{/* <div className='boxstart'>
-            <h3>Anoshe</h3>
-
-            <div className='infoAnoshi'>
-           <p>At Anoshe you will find unique ceramics handmade by Sara.Behind each piece, there is a story. A story that reflects the Sara's ideas, inspiration, aesthetics, and techniques. The different stories are the heart of each piece and are what makes them special.
-</p> 
-            </div>
-          </div> */}
-
-
-
-
-
+        <div className='footer-container'>
+ 
  <div className='boxleft'>
     
 <h3>Hjälp</h3>
@@ -45,6 +32,7 @@ function Footer() {
 </div>
 </Link>
 
+
 </div>
 
 <div className='boxmellan'>
@@ -59,6 +47,18 @@ function Footer() {
           </div>
 
             <div className='boxright'>
+
+                <p className='icons'>
+                    <AiFillInstagram />
+                    <AiOutlineTwitter />
+                </p>
+
+            </div>
+
+        </div>
+
+
+
             <h3>Follow oss</h3>
 
             <p className='icons'>
