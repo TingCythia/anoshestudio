@@ -9,7 +9,7 @@ const HeroBanner = ({ heroBanner }) => {
                 <p className="banner-solo">{heroBanner.smallText}</p>
                 <h3>{heroBanner.midText}</h3>
                 <h1>{heroBanner.largeText} </h1>
-                <Link href={`/product/ID`}>
+                <Link href={`/store`}>
                     <button type="button">{heroBanner.buttonText}</button>
                 </Link>
             </div>
