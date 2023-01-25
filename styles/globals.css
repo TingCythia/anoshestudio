@@ -399,8 +399,8 @@ span.text-red {
 
 }
 
-@media screen and (max-width:428px){ 
-  .footer-container{
+@media screen and (max-width:428px) {
+  .footer-container {
     width: 150%;
     text-align: center;
   }
@@ -540,7 +540,8 @@ span.text-red {
   text-align: center;
   color: #324d67;
   margin-top: 80px;
-
+  justify-content: center;
+  gap: 20px;
 }
 
 .product-detail-image {
@@ -586,7 +587,7 @@ span.text-red {
 
 .product-detail-desc {
 
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .product-detail-desc h4 {
@@ -632,7 +633,8 @@ span.text-red {
 .buttons {
   display: flex;
   flex-wrap: wrap;
-margin-left: 160px;
+  gap: 10px;
+  justify-content: center;
 }
 
 .buttons .add-to-cart {
@@ -892,8 +894,8 @@ margin-left: 160px;
   }
 
   .product .cart-product-image {
-    width: 25%;
-    height: 25%;
+    max-width: 100px;
+    max-height: 100px;
   }
 
   .buttons .add-to-cart {
@@ -986,12 +988,12 @@ margin-left: 160px;
 
 /* policy footer*/
 
-@media screen and (max-width:428px){
-  .main-container{
+@media screen and (max-width:428px) {
+  .main-container {
     width: 150%;
     text-align: center;
   }
-  
+
 }
 
 .Navbarpolicy h1 {
@@ -1038,6 +1040,7 @@ margin-left: 160px;
 
 .boxleft p {
   margin-top: 10px;
+
  }
 
 .hero-banner-container h3{
@@ -1047,3 +1050,6 @@ padding-left: 10px;
 text-align: start;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+}
+
