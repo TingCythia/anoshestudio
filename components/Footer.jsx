@@ -26,7 +26,7 @@ function Footer() {
                         </div>
                     </Link>
 
-                    <Link href={"/betalning"}>
+                    <Link href={"./villkor"}>
                         <div className=''>
                             <p>Regler och villkor</p>
                         </div>

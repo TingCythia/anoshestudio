@@ -40,7 +40,8 @@ För att beställa utomlands, besök Anoshe webbplats för det land du befinner 
    <b>BETALNING</b>
    
    <p className="p2">
-   Vi har bara en betalningsmetoder som betala med kreditkort , vi änvanda stripe som är en säker betolningset. 
+   Klarna
+BETALA DIREKT – Du kan betala med Visa, Mastercard eller American Express i alla länder som vi levererar till. Du kan också välja att handla med andra direktbetalningsaternativ som också kommer att finnas tillgängliga i betalningsprocessen. Betalningen kommer att dras från ditt bankkonto så snart din beställning har bekräftats. 
    </p>
    
    

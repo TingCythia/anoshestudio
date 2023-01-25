@@ -7,9 +7,15 @@ const HeroBanner = ({ heroBanner }) => {
         <div className="hero-banner-container">
             <div className="banner-div">
                 <p className="banner-solo">{heroBanner.smallText}</p>
+                <h1>{heroBanner.largeText} </h1> 
                 <h3>{heroBanner.midText}</h3>
+
+               
+                <Link href={`/product/ID`}>
+
                 <h1>{heroBanner.largeText} </h1>
                 <Link href={`/store`}>
+
                     <button type="button">{heroBanner.buttonText}</button>
                 </Link>
             </div>
