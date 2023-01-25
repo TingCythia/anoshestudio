@@ -30,6 +30,8 @@ a {
   margin-top: 35px; */
   flex: 1 0 auto;
   padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .layout {
@@ -198,17 +200,18 @@ span.text-red {
 }
 
 .banner-div {
-  position: absolute;
+
   background: rgba(148, 102, 56, 0.7);
   border-radius: 5px;
-  width: auto;
-  height: auto;
+  width: 30%;
+  height: 40%;
+ 
 }
 
 .banner-solo {
   margin-top: 10px;
   color: #fff;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .hero-banner-container button {
@@ -1037,4 +1040,10 @@ margin-left: 160px;
   margin-top: 10px;
  }
 
-
+.hero-banner-container h3{
+font-size: small;
+padding-top: 25px;
+padding-left: 10px;
+text-align: start;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
