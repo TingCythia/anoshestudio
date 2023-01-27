@@ -2,35 +2,15 @@ import React from 'react';
 import { client } from '../lib/client';
 import { Products } from '../components';
 import { useStateContext } from '../context/StateContext';
+import { PageTitle } from '../components';
 
 const Store = ({ products }) => {
+    PageTitle('store')
     const { qty, onAdd } = useStateContext();
-    /*   const [value, setValue] = useState("all"); */
+
     return (
         <div>
-            {/*             <div style={{
-                display: "inline-flex",
-            }}>
-                <tabs value={value}>
 
-                    <tab>
-                        Best Seller
-                    </tab>
-
-                    <tab>
-                        Top Rated
-                    </tab>
-
-                    <tab>
-                        Editor Choice
-                    </tab>
-
-                    <tab>
-                        All
-                    </tab>
-
-                </tabs>
-            </div> */}
             <div className='store-products-container'>
                 {products?.map((product) =>
                     <div className='store-card-contariner'>
