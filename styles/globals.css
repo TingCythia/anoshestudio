@@ -146,7 +146,7 @@ span.text-red {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px 50px;
+  gap: 50px 100px;
   margin-top: 50px;
   width: 100%;
   height: 100%;
@@ -199,6 +199,7 @@ span.text-red {
 
 .banner-div {
   position: absolute;
+  margin-right: 20px;
   background: rgba(148, 102, 56, 0.7);
   border-radius: 5px;
   width: auto;
@@ -225,7 +226,7 @@ span.text-red {
 }
 
 .hero-banner-container h3 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-top: 15px;
   color: #fff;
 }
@@ -846,7 +847,7 @@ span.text-red {
   }
 
   .hero-banner-container h3 {
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   .hero-banner-container button {
@@ -974,6 +975,7 @@ span.text-red {
 
 @media screen and (max-width:428px) {
   .hero-banner-container h3 {
+    font-size: 1rem;
     margin-top: 15px;
     color: #fff;
   }

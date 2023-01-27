@@ -5,26 +5,50 @@ import { useStateContext } from '../context/StateContext';
 
 const Store = ({ products }) => {
     const { qty, onAdd } = useStateContext();
+    /*   const [value, setValue] = useState("all"); */
     return (
+        <div>
+            {/*             <div style={{
+                display: "inline-flex",
+            }}>
+                <tabs value={value}>
 
-        <div className='store-products-container'>
-            {products?.map((product) =>
-                <div className='store-card-contariner'>
-                    <Products
-                        key={product._id}
-                        product={product}
-                    />
-                    <button
-                        type='button'
-                        className='add-to-cart'
-                        onClick={() => onAdd(product, qty)}
-                    >Add to cart
-                    </button>
-                </div>
-            )}
+                    <tab>
+                        Best Seller
+                    </tab>
 
+                    <tab>
+                        Top Rated
+                    </tab>
+
+                    <tab>
+                        Editor Choice
+                    </tab>
+
+                    <tab>
+                        All
+                    </tab>
+
+                </tabs>
+            </div> */}
+            <div className='store-products-container'>
+                {products?.map((product) =>
+                    <div className='store-card-contariner'>
+                        <Products
+                            key={product._id}
+                            product={product}
+                        />
+                        <button
+                            type='button'
+                            className='add-to-cart'
+                            onClick={() => onAdd(product, qty)}
+                        >Add to cart
+                        </button>
+                    </div>
+                )}
+
+            </div>
         </div>
-
     )
 }
 
