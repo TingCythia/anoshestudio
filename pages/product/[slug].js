@@ -8,8 +8,12 @@ import { PageTitle } from '../../components';
 const ProductDetails = ({ product, products }) => {
     PageTitle('product')
     const { image, name, details, price } = product;
-    const { decQty, incQty, qty, onAdd } = useStateContext();
+    const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
+    const handleBuyNow = () => {
+        onAdd(product, qty - 1);
+        setShowCart(true);
+    }
     return (
         <div className='single-product-page'>
             <div className='product-detail-container'>
@@ -65,7 +69,7 @@ const ProductDetails = ({ product, products }) => {
                         <button
                             type='button'
                             className='buy-now'
-                            onClick={""}
+                            onClick={handleBuyNow}
                         >Check out now
                         </button>
                     </div>
