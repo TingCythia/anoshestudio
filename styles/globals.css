@@ -303,6 +303,7 @@ span.text-red {
   color: rgb(31, 27, 52);
   width: 100%;
   margin-top: 120px;
+  margin-bottom: 200px;
   border: 1px solid rgb(22, 11, 172);
 }
 
@@ -333,7 +334,7 @@ span.text-red {
   margin: 18px;
 }
 
-.footer-banner-image {}
+
 
 .banner-desc .right {
   line-height: 1.4;
@@ -375,18 +376,23 @@ span.text-red {
 
 }
 
+.Navbarpolicy {
+  min-height: 0;
+  overflow-y: auto;
+  margin-bottom: 200px;
+}
+
 .footer-container {
   color: #324d67;
-  margin-top: 10px;
-  padding: 30px 10px;
+  padding: 30px 20px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(250, 248, 241);
-  margin-top: 50px;
-
-
-
-
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .footer-container .icons {
@@ -398,9 +404,18 @@ span.text-red {
 }
 
 @media screen and (max-width:428px) {
+  .Navbarpolicy {
+    min-height: 0;
+    overflow-y: auto;
+    margin-bottom: 200px;
+  }
+
   .footer-container {
-    width: 150%;
+    width: 100%;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
 }
 
@@ -454,7 +469,7 @@ span.text-red {
 }
 
 .product .cart-product-image {
-  width: 180px;
+  width: 140px;
   height: 150px;
   border-radius: 15px;
   background-color: #ebebeb;
@@ -784,9 +799,16 @@ span.text-red {
   margin-top: 10px;
 }
 
+.single-product-page {
+  margin-bottom: 300px;
+}
 
+.products-page {
+  margin-bottom: 200px;
+}
 
 @media screen and (max-width:800px) {
+
 
   .hero-banner-container {
     height: 560px;
@@ -801,7 +823,7 @@ span.text-red {
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 380px;
   }
 
   .footer-banner-image {
