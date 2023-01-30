@@ -404,22 +404,6 @@ span.text-red {
 
 }
 
-@media screen and (max-width:428px) {
-  .Navbarpolicy {
-    min-height: 0;
-    overflow-y: auto;
-    margin-bottom: 200px;
-  }
-
-  .footer-container {
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-  }
-}
-
 
 .cart-heading {
   display: flex;
@@ -1007,17 +991,27 @@ span.text-red {
   .banner-div {
     width: 51%;
   }
-}
 
-/* policy footer*/
-
-@media screen and (max-width:428px) {
+  /* policy footer*/
   .main-container {
     width: 100%;
     text-align: center;
     margin-bottom: 100px;
   }
 
+  .Navbarpolicy {
+    min-height: 0;
+    overflow-y: auto;
+    margin-bottom: 200px;
+  }
+
+  .footer-container {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .Navbarpolicy h1 {
@@ -1103,7 +1097,7 @@ nav {
     width: 80px;
     height: 100px;
     background-color: antiquewhite;
-    margin-top: 150px;
+    margin-top: 80px;
     justify-content: center;
     position: absolute;
     right: 0;
