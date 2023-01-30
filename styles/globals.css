@@ -40,9 +40,10 @@ a {
 
 .navbar-container {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin: 6px 18px;
+  margin-left: -10px;
   position: relative;
   height: 50px;
   padding: 20px 0;
@@ -1096,6 +1097,15 @@ nav {
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+    flex-direction: column;
+    width: 80px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-top: 150px;
+    justify-content: center;
+    justify-items: flex-end;
+    position: absolute;
+    right: 0;
   }
 
   .burger {

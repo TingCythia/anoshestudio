@@ -25,11 +25,11 @@ const Navbar = () => {
                 </Link>
             </div>
             <ul className={`nav-links ${showLinks ? 'show-links' : ''}`}>
-                <li>
+                {/*                <li>
                     <Link href="/contact">
                         Contact
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link href="/store">
                         Store
