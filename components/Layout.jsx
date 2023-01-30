@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
                     enableDeclineButton
                     expires={150}
                     cookieName="AnosheStudio cookie">
-                    By clicking “Accept all cookies”, you agree Anoshe can store cookies on your device and disclose information in accordance with our <Link href="/policy" style={{ textDecoration: "underline" }}> privacy policy </Link>for more.
+                    By clicking “I understand”, you agree Anoshe can store cookies on your device and disclose information in accordance with our <Link href="/policy" style={{ textDecoration: "underline" }}> privacy policy </Link>for more.
                 </CookieConsent>
             </footer>
         </div>
