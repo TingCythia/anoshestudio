@@ -112,7 +112,7 @@ span.text-red {
   border: none;
   background-color: transparent;
   margin-right: 15px;
-
+  margin-top: 3px;
 }
 
 .cart-icon:hover {
