@@ -1,78 +1,58 @@
 import React from "react"
 
-function Betalning (){
-    return(
+function Betalning() {
+   return (
 
-       <div className="Navbarpolicy">
-   
-           <h1> Betalning och leverans</h1>
-           <h3>  </h3>
-   <div className="descrip"> 
-   
-   
-   <p className="p1"> 
-   Fri leverans över 200,00 euro.
-   Snabb leverans inne Europe 20,00 euro.
-Vilka leveransställen kan jag välja?
+      <div className="Navbarpolicy">
 
-Vi erbjuder flera leveransalternativ, ange önskad leveransadress i kassan eller välj ett passande paketombud. Om någon hämtar ett paket för din räkning måste de ta med ditt ID, upphämtningskoden och sitt eget ID.
-
-Spåra din beställning
-
-När din beställning har skickats skickar vi dig en leveransbekräftelse via e-post med en spårningslänk. Du kan också spåra den under "Beställningar" när du loggar in på Mitt konto.
-
-Leveransbegränsningar
-
-Beställda varor kan endast levereras till personer som är 18 år eller äldre, med en adress i Sverige. Undantagna leveransplatser listas nedan.
-
-Paket som inte kan levereras
-
-Om din beställning inte kan levereras returneras den till Anoshe.
-
-Beställning från utlandet
-
-För att beställa utomlands, besök Anoshe webbplats för det land du befinner dig i och ange en lokal leveransadress i kassan.
+         <h1> Payment and delivery </h1>
+         <h3>  </h3>
+         <div className="descrip">
 
 
-   
-   </p>
-   
-   <b>BETALNING</b>
-   
-   <p className="p2">
-   Vi har bara en betalningsmetoder som betala med kreditkort , vi änvanda stripe som är en säker betolningset. 
-   </p>
-   
-   
-   
-    <b>LEVERANS</b>
-    <p className="p3">
-    Vilka leveransalternativ har jag?
-Standardleverans är gratis för beställningar över 500 kr. Vi kommer att leverera ditt köp inom 6-8 arbetsdagar efter att ha mottagit din orderbekräftelse.
+            <p className="p1">
 
-Standard hemleverans (70 kr)
-Standard hemleverans (50 kr)
-Standard upphämtningsställe (40 kr)
-Standard paketskåp (40 kr)
 
-Vi erbjuder även expressleverans för beställningar som görs före 16:30 måndag - fredag, eller före 10:30 på lördagar levereras inom 1-2 arbetsdagar. Beställningar som görs efter 16:30 måndag - fredag, eller efter 10:30 på lördagar kommer att levereras inom 3 arbetsdagar.
+               All payments on Anoshe are processed in Euro (EUR). <br></br>
+               The price you see on the product page includes all taxes.
+            </p>
+            <br></br><br></br>
+            <b>Payment:</b>
 
-Expressleverans (100 kr) 
+            <p className="p2">
+               We accept the following payment methods:<br></br>
+               1. Credit card (Visa, Mastercard, American Express)<br></br>
+               2. Klarna<br></br>
+               3. Google Pay<br></br>
 
-Under högsäsong och reaperioder kan expressleverans vara otillgänglig.
-   
-   </p>
-   
-   
-   
-   
-   </div>
-       
-       
-       </div>
-    )
-   
-   }
-   
-   export default Betalning
+            </p>
+            <br></br>
+
+
+            <b> Delivery:</b>
+            <p className="p3">
+
+
+               We offer delivery within Europe only. Delivery is free for orders over 200 EUR. For orders under 200 EUR, a delivery fee of 20 EUR will apply.<br></br><br></br>
+
+               Standard delivery is estimated to take 7-14 working days. If you need your order faster, we offer fast shipping for an additional fee, estimated to arrive within 3-10 working days.<br></br><br></br>
+
+               Please note that delivery times are estimated and may be affected by external factors such as postal strikes or extreme weather conditions. Anoshe cannot be held responsible for any delays beyond our control.<br></br><br></br>
+
+               If you have any questions or concerns about our payment and delivery policy, please don't hesitate to contact us at customer@Anoshe.com. We're here to help.<br></br><br></br>
+
+            </p>
+
+
+
+
+         </div>
+
+
+      </div>
+   )
+
+}
+
+export default Betalning
 

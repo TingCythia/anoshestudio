@@ -1,73 +1,75 @@
 import React from "react";
+import { PageTitle } from "../components";
+
+
+function Policy() {
+    PageTitle('Policy')
+    return (
+
+        <div className="Navbarpolicy" >
+            <br></br>
+            <h1> Private policy </h1>
+            <br></br>
+            <h3>Privacy Policy:</h3>
+
+            We are committed to protecting the privacy of our customers. This Privacy Policy explains what information we collect, how we use it, and how we protect it.<br></br><br></br>
+
+            Information We Collect<br></br>
+
+            We collect information from you when you place an order, create an account, or sign up for our newsletter. This information may include your name, address, email address, phone number, and payment information. We may also collect information about your purchasing history and preferences.<br></br><br></br>
+
+            Use of Information<br></br>
+
+            The information we collect is used to process your orders, provide customer service, and improve your shopping experience. We may use your information to send you promotional emails or newsletters, but you can opt out of these communications at any time.<br></br><br></br>
+
+            Protection of Information<br></br>
+
+            We take the security of your information very seriously and have implemented appropriate measures to protect it. Our website is protected by encryption technology, and we store your information on secure servers.<br></br><br></br>
+
+            Cookies<br></br>
+
+            We use cookies to enhance your shopping experience and to personalize our website for you. Cookies are small text files that are stored on your device and used to remember your preferences. You can choose to accept or decline cookies, but some parts of our website may not function properly if you do so.<br></br><br></br>
+
+            Changes to Privacy Policy<br></br>
+
+            We reserve the right to change this Privacy Policy at any time. Any changes will be posted on this page, so please check back regularly.<br></br><br></br>
+
+            Contact Us:<br></br>
+
+            If you have any questions or concerns about our Privacy Policy, please contact us at customer@Anoshe.com.
+
+            <br></br><br></br>
+
+            Cookie Policy<br></br>
+
+            We use cookies on our website to enhance your shopping experience and to personalize our website for you. This Cookie Policy explains what cookies are, how we use them, and how you can control them.<br></br><br></br>
+
+            What are Cookies?
+            <br></br>
+            Cookies are small text files that are stored on your device when you visit a website. They are used to remember your preferences and track your activity on the website.<br></br><br></br>
+
+            How We Use Cookies<br></br>
+
+            We use cookies to improve your shopping experience and to provide you with relevant advertising. Cookies help us remember your preferences, such as your preferred language or currency, and to track your activity on our website.<br></br><br></br>
+
+            Controlling Cookies<br></br>
+
+            You can choose to accept or decline cookies by changing the settings in your browser. Please note that some parts of our website may not function properly if you choose to decline cookies.<br></br><br></br>
+
+            Changes to Cookie Policy:<br></br>
+
+            We reserve the right to change this Cookie Policy at any time. Any changes will be posted on this page, so please check back regularly.<br></br><br></br>
+
+            Contact Us:
+            <br></br>
+            If you have any questions or concerns about our Cookie Policy, please contact us at customer@Anoshe.com.<br></br><br></br>
 
 
 
-
-function Policy (){
-
- return(
-    
-   
-
-    <div className="Navbarpolicy" >
-
-        <h1> Retur och återbetalning</h1>
-        <h3> RETURNERA OCH FÅ FULL ÅTERBETALNING </h3>
-        
+        </div>
 
 
-<p className="p1"> 
-Vi hoppas att du kommer att älska allt du beställer från oss, men om något inte stämmer har du 30 dagar på dig att returnera, per post eller i butik.
-
-Du kan nu returnera antingen per post eller i butik. Det innebär att varor som köpts online nu också kan returneras i butik, ta bara med dig din retursedel så hjälper vår butikspersonal dig!
-Det är kostnadsfritt att returnera i en Anoshi-butik på samma marknad som du gjorde köpet. Returer via hämtningsställe/post har dock en kostnad på 30 SEK som dras av från det totala återbetalda beloppet.
-
-
-Vi ger dig pengarna tillbaka med samma metod som du betalade med och vi ber dig att varorna returneras rena, oanvända och med alla etiketter på.
-
-Av hygieniska skäl kan underkläder, trosor, body och piercade smycken inte returneras eller bytas om de inte är felaktiga, och alla badkläder måste fortfarande ha hygienremsan kvar. 
-
-
-
-</p>
-
-<b>Så gör du en retur:</b>
-
-<p className="p2">
-Logga in på vår returportal med ditt ordernummer (finns på din orderbekräftelse) och e-postadress och låt oss veta vad du vill returnera och varför. Du kan returnera mer än en beställning eller ett paket samtidigt, så länge du skickar med alla relevanta retursedlar i paketet.
-
-  
-Du behöver inte fylla i pappersreturformuläret men skicka med det i ditt paket. Om du returnerar en bristfällig eller felaktig vara, fyll i och skicka med returformuläret på följesedeln istället.
-
-
-
-När din retur är registrerad i portalen väljer du ett av alternativen nedan för att genomföra din retur. 
-
-När vi har behandlat returen får du ett bekräftelsemejl. Du kan förvänta dig detta inom två veckor efter att du skickat tillbaka din retur till oss. Se till att behålla ditt kvitto under tiden!
-</p>
-
-
-
- <b>Returalternativ:</b>
- <p className="p3">
-Fria returer i butik (i Sverige) eller retur med en avgift på 30 SEK med PostNord-paketbutik, Instabox eller Budbee.
-
-Fäst den självhäftande returetiketten, som du hittar på följesedeln, och ta paketet till en PostNord-paketbutik som du själv väljer. Om du returnerar med Instabox, boka din retur på instabox.se/return eller klicka på länken i Instabox-spårningslänken. Obs: Om du returnerar en Budbee-beställning kan du boka din retur via länken i Budbee-spårningsmeddelandet.
-
-Om du saknar den självhäftande returetiketten som finns på följesedeln kan du kontakta vår kundtjänst.
-
-Nytt returformulär
-Ett returformulär ingår i ditt paket. Om du inte längre har det här formuläret skriver du bara ut och fyller i all nödvändig information i ett nytt formulär här.
-
-</p>
-
-
-
-
-</div>
-
-
- )
+    )
 
 
 }

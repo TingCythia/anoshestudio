@@ -20,8 +20,11 @@ const Layout = ({ children }) => {
             </main>
             <footer>
                 <Footer />
-                <CookieConsent debug={true}>
-                    This site is demo store, shopping function is not active, you can experience test shopping method. This site uses cookies. See our <Link href="/policy" style={{ textDecoration: "underline" }}> privacy policy </Link>for more.
+                <CookieConsent
+                    enableDeclineButton
+                    expires={150}
+                    cookieName="AnosheStudio cookie">
+                    By clicking “Accept all cookies”, you agree Anoshe can store cookies on your device and disclose information in accordance with our <Link href="/policy" style={{ textDecoration: "underline" }}> privacy policy </Link>for more.
                 </CookieConsent>
             </footer>
         </div>

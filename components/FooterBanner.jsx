@@ -8,7 +8,7 @@ function FooterBanner({ footerBanner: { discount, largeText1, largeText2, saleTi
         <div className='footer-banner-container' >
             <div className='banner-desc' >
                 <div className='left'>
-                 
+
                     <h3>{largeText1} </h3>
                     <h3>{largeText2}</h3>
                     <p>{saleTime}</p>
@@ -17,7 +17,7 @@ function FooterBanner({ footerBanner: { discount, largeText1, largeText2, saleTi
                     <p>{smallText}</p>
                     <h3>{midText}</h3>
                     <p>{desc}</p>
-                    <Link href={`/product/${product}`}>
+                    <Link href={`/readmore`}>
                         <button type='button'>
                             {buttonText}
                         </button>
