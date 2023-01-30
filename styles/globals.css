@@ -701,6 +701,7 @@ span.text-red {
 .quantity-desc .minus {
   border-right: 1px solid gray;
   color: #f02d34;
+  cursor: pointer;
 }
 
 .quantity-desc .num {
@@ -710,7 +711,7 @@ span.text-red {
 
 .quantity-desc .plus {
   color: rgb(49, 168, 49);
-
+  cursor: pointer;
 }
 
 .maylike-products-wrapper {

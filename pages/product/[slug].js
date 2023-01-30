@@ -42,6 +42,7 @@ const ProductDetails = ({ product, products }) => {
                             <span
                                 className='minus'
                                 onClick={decQty}
+                                style={{ cursor: "pointer" }}
                             >
                                 <AiOutlineMinus />
                             </span>
@@ -54,6 +55,7 @@ const ProductDetails = ({ product, products }) => {
                             <span
                                 className='plus'
                                 onClick={incQty}
+                                style={{ cursor: "pointer" }}
                             >
                                 <AiOutlinePlus />
                             </span>
