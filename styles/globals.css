@@ -882,7 +882,7 @@ span.text-red {
   }
 
   .cart-container {
-    width: 400px;
+    max-width: 100%;
     padding: 4px;
   }
 
