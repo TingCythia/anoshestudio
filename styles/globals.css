@@ -1013,7 +1013,7 @@ span.text-red {
 
 @media screen and (max-width:428px) {
   .main-container {
-    width: 150%;
+    width: 100%;
     text-align: center;
   }
 
