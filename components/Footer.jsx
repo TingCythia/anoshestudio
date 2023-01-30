@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillInstagram, AiOutlineTwitter, AiFillFacebook } from 'react-icons/ai';
 import Link from 'next/link';
+import LoginForm from './LoginForm';
 
 
 
@@ -29,6 +30,12 @@ function Footer() {
                     <Link href={"/policy"}>
                         <div className=''>
                             <p>Private policy</p>
+                        </div>
+                    </Link>
+
+                    <Link href={"/login"}>
+                        <div className=''>
+                            <p>Login</p>
                         </div>
                     </Link>
 

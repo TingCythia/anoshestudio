@@ -11,10 +11,6 @@ function Navbar() {
 
     const { showCart, setShowCart, totalQuantities } = useStateContext();
 
-
-
-
-
     return (
 
 
@@ -30,40 +26,39 @@ function Navbar() {
 
                 </div>
 
-                <div className='rightNavbar'>
 
 
 
-                    {/*                     <Link href={"./FooterBanner.jsx"}>
+                {/*                     <Link href={"./FooterBanner.jsx"}>
                         <button type='button' className='cart-icon'>
                             About Us
                         </button>
                     </Link> */}
 
-                    <div className='rightNavbar'>
+                <div className='rightNavbar'>
 
 
 
 
-                        <Link href={"/store"}>
-                            <button type='button' className='cart-icon'>
-                                Store
-                            </button>
-                        </Link>
-
-
-                        <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
-                            <AiOutlineShopping />
-                            <span className='cart-item-qty'>{totalQuantities}</span>
+                    <Link href={"/store"}>
+                        <button type='button' className='cart-icon'>
+                            Store
                         </button>
+                    </Link>
 
-                        {showCart && <Cart />}
+
+                    <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
+                        <AiOutlineShopping />
+                        <span className='cart-item-qty'>{totalQuantities}</span>
+                    </button>
+
+                    {showCart && <Cart />}
 
 
-                    </div>
                 </div>
             </div>
         </div>
+
 
     )
 }

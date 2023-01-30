@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Navbar from './Navbar';
+import NavbarTwo from './NavbarTwo';
 import Footer from './Footer';
 import Script from 'next/script';
 import Link from 'next/link';
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
                 <title>Anoshe Studio</title>
             </Head>
             <header>
-                <Navbar />
+                <NavbarTwo />
             </header>
             <main className='main-container'>
                 {children}
