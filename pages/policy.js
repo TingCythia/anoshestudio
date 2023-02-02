@@ -10,39 +10,39 @@ function Policy() {
             <br></br>
             <h1> Private policy </h1>
             <br></br>
-            <h3>Privacy Policy:</h3>
+            <h3>Introduction:</h3>
 
-            We are committed to protecting the privacy of our customers. This Privacy Policy explains what information we collect, how we use it, and how we protect it.<br></br><br></br>
+            We respect your privacy and are committed to protecting it. This Privacy Policy explains how we collect, use, and share personal data when you use our website to make a payment through Stripe.<br></br><br></br>
 
-            Information We Collect<br></br>
+            Cookies:<br></br>
 
-            We collect information from you when you place an order, create an account, or sign up for our newsletter. This information may include your name, address, email address, phone number, and payment information. We may also collect information about your purchasing history and preferences.<br></br><br></br>
+            Our website uses cookies to enhance your browsing experience and to gather data about your visit. Cookies are small text files that are stored on your device when you visit our website. They collect information such as your IP address, browser type, and pages viewed on our site.<br></br><br></br>
 
-            Use of Information<br></br>
+            Use of Personal Data:<br></br>
 
-            The information we collect is used to process your orders, provide customer service, and improve your shopping experience. We may use your information to send you promotional emails or newsletters, but you can opt out of these communications at any time.<br></br><br></br>
+            When you make a payment through Stripe on our website, we collect personal data such as your name, address, and payment information. This data is used to process your payment and fulfill your order.<br></br><br></br>
 
-            Protection of Information<br></br>
+            Data Sharing:<br></br>
 
-            We take the security of your information very seriously and have implemented appropriate measures to protect it. Our website is protected by encryption technology, and we store your information on secure servers.<br></br><br></br>
+            We share personal data with Stripe, a third-party payment processor, in order to process your payment. Stripe is fully compliant with the EU-U.S. Privacy Shield Framework and the General Data Protection Regulation (GDPR).<br></br><br></br>
 
-            Cookies<br></br>
+            Data Retention:<br></br>
 
-            We use cookies to enhance your shopping experience and to personalize our website for you. Cookies are small text files that are stored on your device and used to remember your preferences. You can choose to accept or decline cookies, but some parts of our website may not function properly if you do so.<br></br><br></br>
+            We retain personal data for as long as necessary to fulfill the purposes for which it was collected and to comply with applicable laws.<br></br><br></br>
 
-            Changes to Privacy Policy<br></br>
+            Data Rights:<br></br>
 
-            We reserve the right to change this Privacy Policy at any time. Any changes will be posted on this page, so please check back regularly.<br></br><br></br>
+            Under the GDPR, you have the right to access, delete, or correct your personal data. You may exercise these rights by contacting us at customer@Anoshe.com<br></br><br></br>
 
-            Contact Us:<br></br>
+            Data Security:<br></br>
 
-            If you have any questions or concerns about our Privacy Policy, please contact us at customer@Anoshe.com.
+            We take data security seriously and have implemented measures to protect personal data, such as encryption and secure servers.
 
             <br></br><br></br>
 
-            Cookie Policy<br></br>
+            Contact Information:<br></br>
 
-            We use cookies on our website to enhance your shopping experience and to personalize our website for you. This Cookie Policy explains what cookies are, how we use them, and how you can control them.<br></br><br></br>
+            If you have any questions or concerns about our privacy policy or the handling of your personal data, please contact us at customer@Anoshe.com<br></br><br></br>
 
             What are Cookies?
             <br></br>
@@ -58,11 +58,9 @@ function Policy() {
 
             Changes to Cookie Policy:<br></br>
 
-            We reserve the right to change this Cookie Policy at any time. Any changes will be posted on this page, so please check back regularly.<br></br><br></br>
+            We reserve the right to modify it at any time. Any changes will be posted on this page, so please check back regularly.<br></br><br></br>
 
-            Contact Us:
-            <br></br>
-            If you have any questions or concerns about our Cookie Policy, please contact us at customer@Anoshe.com.<br></br><br></br>
+
 
 
 
