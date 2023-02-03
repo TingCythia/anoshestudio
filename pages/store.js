@@ -9,7 +9,7 @@ const Store = ({ products }) => {
     const { qty, onAdd } = useStateContext();
 
     return (
-        <div>
+        <div className='products-page'>
 
             <div className='store-products-container'>
                 {products?.map((product) =>
